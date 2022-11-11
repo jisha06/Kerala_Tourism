@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body 
+{
+    color: #373737;
+    font-size: 16px;
+    position: relative;
+}
+
+#navbar
+{    
+    top: 0;
+    left:0;
+    z-index:100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);  
+}
+
+#my-navbar a
+{
+    color:black;
+    border-bottom: 2px solid transparent;
+}
+
+#my-navbar a:hover
+{
+    border-bottom: 2px solid  lightskyblue;
+}
+
+.header 
+{
+    background-color: white;
+}
+
+.header .navbar .navbar-brand img 
+{
+    height: 100px;
+}
+
+.header .navbar .nav-item i 
+{
+    margin-right: 8px;
+}
+
+.header .nav-vl 
+{
+    border-left: 2px solid #d6d6d678;
+    height: 24px;
+    margin: auto 16px;
+    display: block;
+}
+
+@media(max-width:768px) 
+{
+    .header .nav-vl {
+        display: none;
+    }
+}
+
+.header .nav-name 
+{
+    font-weight: bold;
+    margin: auto 16px;
+}
+
+@media(max-width:768px) 
+{
+    .header .nav-name {
+        margin: 8px 0px
+    }
+}
+
+.carousel img 
+{
+    height: 500px;  
+    object-fit: cover;
+}
+
+/* About */
+section
+{
+    width:100%;
+    min-width: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items:baseline;  
+}
+
+#about h1{
+    font-weight: 800;
+    font-size: 40px;
+}
+#about h1:hover
+{
+    border-bottom: 2px solid  lightskyblue;
+}
+
+/* Login Modal */
+#login-modal .modal-dialog 
+{
+    width: 350px;
+    margin: auto;
+}
+
+.modal-footer 
+{
+    background-color: #f4f4f4;
+    justify-content: center;
+}
+
+/* Footer */
+.footer 
+{
+    background-color: #333333;
+    font-size: 13px;
+}
+
+.footer-container 
+{
+    padding: 15px;
+}
+
+.footer-copyright 
+{
+    color: #a9a9a9;
+    text-align: center;
+}
+
+/* Districts */
+#districts
+{
+    background: #e5e5e5;
+}
+#districts h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+#districts img
+{
+    width: 250px;
+    height: 200px;
+}
+.cards
+{
+    width: 250px;
+    height: 300px;
+    background: #e5e5e5 !important	;
+    box-shadow: 15px 20px 20px rgb(0,0,0,.3),
+                inset 4px 4px 10px white;
+                border-radius: 20px !important; 
+    border: none !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+   margin: 20px 60px;
+}
+
+.card:hover
+{
+    box-shadow: inset 5px 5px 10px rgb(0,0,0,.3),
+                inset -4px -4px 10px white;
+    transition: .2s;
+}
+.card-img img{
+    transition: all 1s ease;
+}
+.card-img:hover img
+{
+    transform: scale(1.5);
+}
+
+.bannerTitle
+{
+    left: 0;
+    bottom: 150px;
+    color: #fff;
+    position: absolute;
+}
+.bCaption
+{
+    right: 15px;
+    bottom: 30px;
+}
+h3{
+    color: black
+}
+.cardDist
+{
+    width: 300px;
+    height: 500px;
+    background: #e5e5e5 !important	;
+    border: none !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+}
